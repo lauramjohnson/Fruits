@@ -11,6 +11,14 @@
 		FD35793D27F522B7002EA970 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35793C27F522B7002EA970 /* ContentView.swift */; };
 		FD35793F27F522B8002EA970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35793E27F522B8002EA970 /* Assets.xcassets */; };
 		FD35794227F522B8002EA970 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35794127F522B8002EA970 /* Preview Assets.xcassets */; };
+		FD35794B27F528A9002EA970 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35794A27F528A9002EA970 /* FruitCardView.swift */; };
+		FD35794D27F52BC3002EA970 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35794C27F52BC3002EA970 /* StartButtonView.swift */; };
+		FD35794F27F535ED002EA970 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35794E27F535ED002EA970 /* OnboardingView.swift */; };
+		FD35795427F537EE002EA970 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35795327F537EE002EA970 /* FruitModel.swift */; };
+		FD35795727F538B3002EA970 /* FruitsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35795627F538B3002EA970 /* FruitsData.swift */; };
+		FD35795927F53FB7002EA970 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35795827F53FB7002EA970 /* FruitRowView.swift */; };
+		FD35795B27F5432C002EA970 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35795A27F5432C002EA970 /* FruitDetailView.swift */; };
+		FD35795D27F54CD8002EA970 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35795C27F54CD8002EA970 /* FruitHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		FD35793C27F522B7002EA970 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD35793E27F522B8002EA970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD35794127F522B8002EA970 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD35794A27F528A9002EA970 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		FD35794C27F52BC3002EA970 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		FD35794E27F535ED002EA970 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FD35795327F537EE002EA970 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		FD35795627F538B3002EA970 /* FruitsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsData.swift; sourceTree = "<group>"; };
+		FD35795827F53FB7002EA970 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		FD35795A27F5432C002EA970 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		FD35795C27F54CD8002EA970 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,10 @@
 		FD35793927F522B7002EA970 /* Fruits */ = {
 			isa = PBXGroup;
 			children = (
-				FD35793A27F522B7002EA970 /* FruitsApp.swift */,
-				FD35793C27F522B7002EA970 /* ContentView.swift */,
+				FD35794827F5284F002EA970 /* App */,
+				FD35794927F52884002EA970 /* View */,
+				FD35795527F5389F002EA970 /* Data */,
+				FD35795027F537AC002EA970 /* Model */,
 				FD35793E27F522B8002EA970 /* Assets.xcassets */,
 				FD35794027F522B8002EA970 /* Preview Content */,
 			);
@@ -65,6 +83,44 @@
 				FD35794127F522B8002EA970 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD35794827F5284F002EA970 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD35793A27F522B7002EA970 /* FruitsApp.swift */,
+				FD35793C27F522B7002EA970 /* ContentView.swift */,
+				FD35794E27F535ED002EA970 /* OnboardingView.swift */,
+				FD35795A27F5432C002EA970 /* FruitDetailView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD35794927F52884002EA970 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD35794A27F528A9002EA970 /* FruitCardView.swift */,
+				FD35794C27F52BC3002EA970 /* StartButtonView.swift */,
+				FD35795827F53FB7002EA970 /* FruitRowView.swift */,
+				FD35795C27F54CD8002EA970 /* FruitHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD35795027F537AC002EA970 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD35795327F537EE002EA970 /* FruitModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD35795527F5389F002EA970 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FD35795627F538B3002EA970 /* FruitsData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD35795727F538B3002EA970 /* FruitsData.swift in Sources */,
+				FD35794B27F528A9002EA970 /* FruitCardView.swift in Sources */,
+				FD35795927F53FB7002EA970 /* FruitRowView.swift in Sources */,
 				FD35793D27F522B7002EA970 /* ContentView.swift in Sources */,
+				FD35795B27F5432C002EA970 /* FruitDetailView.swift in Sources */,
+				FD35794D27F52BC3002EA970 /* StartButtonView.swift in Sources */,
+				FD35795D27F54CD8002EA970 /* FruitHeaderView.swift in Sources */,
+				FD35794F27F535ED002EA970 /* OnboardingView.swift in Sources */,
+				FD35795427F537EE002EA970 /* FruitModel.swift in Sources */,
 				FD35793B27F522B7002EA970 /* FruitsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +337,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +367,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
