@@ -19,6 +19,11 @@
 		FD35795927F53FB7002EA970 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35795827F53FB7002EA970 /* FruitRowView.swift */; };
 		FD35795B27F5432C002EA970 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35795A27F5432C002EA970 /* FruitDetailView.swift */; };
 		FD35795D27F54CD8002EA970 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35795C27F54CD8002EA970 /* FruitHeaderView.swift */; };
+		FDA6FF9A280C74F4009C0679 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FF99280C74F4009C0679 /* SourceLinkView.swift */; };
+		FDA6FF9C280C77F3009C0679 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FF9B280C77F3009C0679 /* FruitNutrientsView.swift */; };
+		FDA6FF9E280C8341009C0679 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FF9D280C8341009C0679 /* SettingsView.swift */; };
+		FDA6FFA0280C8B80009C0679 /* SettlingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FF9F280C8B80009C0679 /* SettlingsLabelView.swift */; };
+		FDA6FFA2280C8E65009C0679 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FFA1280C8E65009C0679 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,11 @@
 		FD35795827F53FB7002EA970 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		FD35795A27F5432C002EA970 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		FD35795C27F54CD8002EA970 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		FDA6FF99280C74F4009C0679 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		FDA6FF9B280C77F3009C0679 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		FDA6FF9D280C8341009C0679 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FDA6FF9F280C8B80009C0679 /* SettlingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlingsLabelView.swift; sourceTree = "<group>"; };
+		FDA6FFA1280C8E65009C0679 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +102,7 @@
 				FD35793C27F522B7002EA970 /* ContentView.swift */,
 				FD35794E27F535ED002EA970 /* OnboardingView.swift */,
 				FD35795A27F5432C002EA970 /* FruitDetailView.swift */,
+				FDA6FF9D280C8341009C0679 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -103,6 +114,10 @@
 				FD35794C27F52BC3002EA970 /* StartButtonView.swift */,
 				FD35795827F53FB7002EA970 /* FruitRowView.swift */,
 				FD35795C27F54CD8002EA970 /* FruitHeaderView.swift */,
+				FDA6FF99280C74F4009C0679 /* SourceLinkView.swift */,
+				FDA6FF9B280C77F3009C0679 /* FruitNutrientsView.swift */,
+				FDA6FF9F280C8B80009C0679 /* SettlingsLabelView.swift */,
+				FDA6FFA1280C8E65009C0679 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,15 +209,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD35795727F538B3002EA970 /* FruitsData.swift in Sources */,
+				FDA6FF9A280C74F4009C0679 /* SourceLinkView.swift in Sources */,
+				FDA6FFA2280C8E65009C0679 /* SettingsRowView.swift in Sources */,
 				FD35794B27F528A9002EA970 /* FruitCardView.swift in Sources */,
 				FD35795927F53FB7002EA970 /* FruitRowView.swift in Sources */,
+				FDA6FF9C280C77F3009C0679 /* FruitNutrientsView.swift in Sources */,
 				FD35793D27F522B7002EA970 /* ContentView.swift in Sources */,
 				FD35795B27F5432C002EA970 /* FruitDetailView.swift in Sources */,
+				FDA6FFA0280C8B80009C0679 /* SettlingsLabelView.swift in Sources */,
 				FD35794D27F52BC3002EA970 /* StartButtonView.swift in Sources */,
 				FD35795D27F54CD8002EA970 /* FruitHeaderView.swift in Sources */,
 				FD35794F27F535ED002EA970 /* OnboardingView.swift in Sources */,
 				FD35795427F537EE002EA970 /* FruitModel.swift in Sources */,
 				FD35793B27F522B7002EA970 /* FruitsApp.swift in Sources */,
+				FDA6FF9E280C8341009C0679 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
